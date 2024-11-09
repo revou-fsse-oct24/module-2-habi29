@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="descripsion" content="toko jualan action figure anime"/>
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Habi Permana Putra">
+    <title>Anime Figure</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+</head>
+<body>
+    <section>
+        <nav>
+            <div class="nav-content">
+            <div class="logo">
+                <img src="assets/logo2.jpg" alt="logo" class="logo" width="50px">
+            </div>
+                <ul>
+                    <li><a href="#index.html">Home</a></li>
+                    <li><a href="#Action Figure">Action Figure</a></li>
+                    <li><a href="#About-us">About-us</a></li>
+                    <li><a href="#Order">Order</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <main>
+        
+        <header class="full-sreen" id="header">
+            <h2>Toko Action Figure</h2>
+            <p>sells various anime action figures</p>
+        </header>
+
+        <section id="Action-Figure">
+            <h2>Action Figure</h2>
+                <div class="grid-container">
+                    <div class="figure-photo-item" id="item 1"></div>
+                    <img src="assets\One Piece 1.jpg" alt="One Piece">
+                    <div class="figure-photo-item" id="item 2"></div>
+                    <img src="assets/One piece 2.jpg" alt="One Piece">
+                    <div class="figure-photo-item" id="item 3"></div>
+                    <img src="assets/naruto 1.jpg" alt="naruto">
+                    <div class="figure-photo-item" id="item 4"></div>
+                    <img src="assets/naruto 2.jpg" alt="naruto">
+                    <div class="figure-photo-item" id="item 5"></div>
+                    <img src="assets/dragon ball 1.jpg" alt="Dragon Ball">
+                    <div class="figure-photo-item" id="item 6"></div>
+                    <img src="assets/dragon.ball 2.jpg" alt="Dragon Ball">
+                </div>
+        </section>
+        
+        <section id="About-us">
+            <h2>About-us</h2>
+            <div class="flex-container">
+                <ul>
+                    <li><p>selling several quality anime action figures</p></li>
+                    <li><p>very affordable price</p></li>
+                    <li><p>best quality</p></li>
+                </ul>   
+            </div>
+            
+        </section>
+
+        <section id="form-section">
+            <h2>Order</h2>
+            <fieldset>
+                <legend>Data</legend>
+                    
+                    <div>
+                        <label for="fname">Name:</label>
+                        <input type="text" id="fname" name="fname"><br><br>
+                    </div>
+
+                    <div>
+                        <label for="lname">Alamat :</label>
+                        <input type="text" id="lname" name="lname"><br><br>
+                    </div>
+
+                    <div>
+                        <label for="No.telpone">No.Telpon:</label>
+                        <input type="number" id="No.telpone" name="no.telpone"><br><br>
+                    </div>
+
+                    <form>
+                        <p>Payment Medhod</p>
+                        <input type="radio" id="COD" name="COD" value="COD">
+                        <label for="COD">COD</label><br>
+                        <input type="radio" id="M-Banking" name="Payment Medhod" value="M-Banking">
+                        <label for="M-Banking">M-Banking</label><br>
+                        <input type="radio" id="Payleter" name="Payment Medhod" value="Payleter">
+                        <label for="Payleter">Payleter</label>
+                    </form>
+
+                    <form>
+                        <p>Action Figure</p>
+                        <input type="checkbox" id="figure1" name="figure1" value="One Piece">
+                        <label for="figure1"> One Piece</label><br>
+                        <input type="checkbox" id="figure2" name="figure2" value="Naruto">
+                        <label for="figure2"> Naruto</label><br>
+                        <input type="checkbox" id="figure3" name="figure3" value="Dragon Ball">
+                        <label for="figure3"> Dragon Ball</label><br>
+                        
+                    </form>
+                    
+                    <input type="submit" value="Submit">
+              
+            </fieldset>
+        </section>
+
+</main>   
+</body>
+</html>
