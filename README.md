@@ -59,7 +59,7 @@ Step by step about deploying and Applying custom domain to the website:
         </p> 
     b. Second, log in with your google account (you can log in with another method)  
         <p align="center">  
-          <img src="assets read.me/10.png.PNG" height="100">
+          <img src="assets read.me/10.png." height="100">
         </p> 
     c. Third, on the dashboard, got to "Domains" tab and click "Get a New Domain"
         <p align="center">  
